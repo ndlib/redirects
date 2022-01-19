@@ -1,6 +1,3 @@
 #!/bin/bash
-set -e
 
-echo "Start server"
-source /etc/apache2/envvars
-exec apache2 -D FOREGROUND
+/usr/sbin/httpd -D FOREGROUND
