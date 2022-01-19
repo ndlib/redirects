@@ -33,5 +33,4 @@ COPY docker-entrypoint.sh /usr/local/bin/docker-entrypoint.sh
 RUN chmod 755 /usr/local/bin/docker-entrypoint.sh
 
 # Uncomment the following 2 lines if running locally
-# ENTRYPOINT ["/usr/local/bin/docker-entrypoint.sh"]
-# CMD ["apache2"]
+#ENTRYPOINT ["/usr/local/bin/docker-entrypoint.sh"]
