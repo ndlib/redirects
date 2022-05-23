@@ -4,6 +4,7 @@ ENV TZ America/Indiana/Indianapolis
 
 # Configure apache
 COPY index.html "/usr/local/apache2/htdocs/"
+COPY health.html "/usr/local/apache2/htdocs/"
 COPY httpd.conf "/usr/local/apache2/conf/"
 COPY redirects.conf "/usr/local/apache2/conf/extra"
 
